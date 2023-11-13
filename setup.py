@@ -1,13 +1,13 @@
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name='math_quiz',
-    version='0.1',
-    packages=find_packages(),
+    name='MathTools',
+    version='1.0',
+    packages=['MathTools'],
     install_requires=[
-        'dependency1',
-        'dependency2',
-        # Add any other dependencies required for your package
+        'numpy',
+        'scipy',
+        # Add other dependencies here if your package relies on them
     ],
 )
