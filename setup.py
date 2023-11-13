@@ -8,6 +8,5 @@ setup(
     install_requires=[
         'numpy',
         'scipy',
-        # Add other dependencies here if your package relies on them
     ],
 )
